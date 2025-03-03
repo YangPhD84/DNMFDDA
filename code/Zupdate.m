@@ -1,5 +1,5 @@
 function Zi=Zupdate(datav,i,v,m,Z,W,beta,gamma)
-%datav是第v个视图，i表示第i层，v表示第v个视图，m表示总层数
+
 Zi = Z{v,i};
 if i>1
     Rsize=size(Z{v,i-1},1);
@@ -8,7 +8,6 @@ if i>1
         phi = phi*Z{v,i-j_pi};
     end
 
-    % 检查矩阵是否包含 NaN 或 Inf
     if any(isnan(phi), 'all') || any(isinf(phi), 'all')
         return;
     end
