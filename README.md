@@ -147,3 +147,18 @@ D_layers = [D_layer_2 D_layer_4];
 
 [D_M, D_Z, D_W] = fDRDMF(Wdr,field_Disease,Disease_similarity,D_layers,alpha,beta,lammad,gamma,MaxIter,tol1,tol2,0,T);
 ```
+# A Quickstart Guide
+Users can immediately start playing with DNMF-DDA running ``` DNMFDDA_Demo.m ``` in matlab.
+* ```DNMFDDA_Demo.m```: it demonstrates a process of predicting drug-disease associations on the gold standard dataset (Gdataset) by DNMF-DDA algorithm.
+
+# Run DNMF-DDA on User's Own Data
+We provided instructions on implementing DNMF-DDA model with user's own data. One could directly run DNMF-DDA model in ``` DNMFDDA_Demo.m```  with custom data by the following instructions.
+
+**Step 1**: Prepare your own data and add the corresponding dataset files.
+
+The required data includes drug-disease association matirx and similarity matrices, which are all saved by ```mat``` files.
+
+**Step 2**: Modify the drug and disease information in ```DNMFDDA_Demo.m```
+
+# Contact
+If you have any questions or suggestions with the code, please let us know. Contact Mengyun Yang at mengyun_yang@126.com
