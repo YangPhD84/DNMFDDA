@@ -10,3 +10,18 @@ DNMF-DDA can be downloaded by
 git clone https://github.com/YangPhD84/DNMFDDA
 ```
 Installation has been tested in a Windows platform.
+
+# Datasets Description
+* Gdataset.mat: this file contains information about the gold standard dataset;
+* Cdataset.mat: this file contains information about the Cdataset;
+* CTDdataset2023.mat: this file contains information about the CTDdataset2023;
+* Wdname: disease name;
+* Wrname: drug name;
+* drug_ChemS: chemical structure similarity matrix;
+* drug_AtcS: drug's ATC code similarity matrix;
+* drug_SideS: side-effect similarity matrix;
+* drug_DDIS: drug-drug interaction similarity matrix;
+* drug_TargetS: drug's target profile similarity matrix;
+* disease_PhS: disease phenotype similarity matrix;
+* disease_DoS: disease ontology similarity matrix;
+* didr: disease-drug association matrix.
