@@ -72,7 +72,7 @@ Disease_total_Association = [Wdd,P_TMat_rr];
 field_Disease = {Disease_total_Association};
 Disease_similarity = {Wdd};
 
-%% 3. DRDMF algorithm
+%% DRDMF algorithm
 %drug_DRDMF
 [R_m,R_n] = size(field_Drug{1,1});
 R_min_mn = min(R_m,R_n);
