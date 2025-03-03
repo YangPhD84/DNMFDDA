@@ -1,6 +1,4 @@
 function Wi=Wupdate(data,Z,W,i,v,m,alpha,lammad,L_W,gamma)
-%data表示所有视图数据，Z表示所有深度矩阵分解项，Wi表示第i层矩阵，i表示第i层，v表示第v个视图，m表示总层数
-
 Wi = W{1,i};
 Isize=size(Z{v,i},1);
 phi = eye(Isize);
